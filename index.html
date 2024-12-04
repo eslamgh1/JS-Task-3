@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JS Assignment 3</title>
+  <!--! BS-CSS - Global styling -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <!--! Fontawsome - Global styling -->
+  <link rel="stylesheet" href="./css/all.min.css" />
+  <!--! CSS - Global styling -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <!--^  Sections -->
+
+  <section class="py-5">
+    <div class="container d-flex flex-column justify-content-center align-items-center pos">
+      <h1 class="py-2 position-relative">Bookmarker</h1>
+
+      <div class="w-100 p-3 py-4 mt-5 d-flex flex-column justify-content-center align-items-center gap-4">
+        <h2 class="border-head"><i class="fa-solid fa-bookmark"></i>
+          Bookmark your favorite sites
+          <i class="fa-solid fa-bookmark"></i>
+        </h2>
+        
+
+        <div class="w-100 d-flex flex-column justify-content-center">
+          <label for="BookmarkName" class="form-label pb-2 fw-semibold">
+            <i class="fa-solid fa-book-bookmark pe-2"></i>Site Name</label>
+          <input type="text" class="form-control" id="BookmarkName" placeholder="Bookmark Name" />
+        </div>
+
+        <div class="w-100 d-flex flex-column justify-content-center">
+          <label for="bookmakURL" class="form-label pb-2 fw-semibold">
+            <i class="fa-solid fa-link pe-2"></i>Site URL</label>
+          <input  onchange="validationName()" type="text" class="form-control" id="bookmakURL" placeholder="Webiste URL" />
+        </div>
+        <button  onclick="addSite()" class="btn btn-danger px-5" type="submit">Submit</button>
+      </div>
+  
+        <table class="table mt-5 text-center">
+          <thead>
+            <tr>
+              <th scope="col">index</th>
+              <th scope="col">Website Name</th>
+              <th scope="col">Visit</th>
+              <th scope="col">Delete</th>
+            </tr>
+          </thead>
+          <tbody id="allTasks">
+
+          </tbody>
+        </table>
+
+  
+
+    </div>
+  </section>
+
+  <!--? End of HTML==> By Eslam Gomaa -->
+    <!--! Setfire library -   -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <!--! BS-JS- - Global styling -->
+  <script src="./JS/bootstrap.bundle.min.js"></script>
+  <!--! Main-JS- - Global styling -->
+  <script src="./JS/main.js"></script>
+</body>
+
+</html>
+
+  

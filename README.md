@@ -14,6 +14,6 @@ Live Demo: eslamgh1.github.io/JS-Task-3/
 Repository Link:  https://github.com/eslamgh1/JS-Task-3
 
 #JavaScript #BookmarkManager #LocalStorage #SweetAlert2
-#JavaScript #Tailwind #Route #React
+#JavaScript #Tailwind #Route #React#JS
 
 ﻿
